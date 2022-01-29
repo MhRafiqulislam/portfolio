@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -67,7 +68,8 @@
     right: 10%;
 }
 .headings{
-font-family: century;
+padding-bottom: 20px;
+font-family: 'Montserrat';
 font-size: 3rem;
 text-align: center;
 margin: 40px opx;
@@ -117,19 +119,43 @@ margin: 40px opx;
 
 /* portfolio section */
 #portfolio{
-    display: flex;
-    flex-direction: column
+display: flex;
+flex-direction: column;
+color: white;
+align-items: center;
+padding: 15px;
+}
    
 .gallery{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     box-sizing: border-box;
+    background-color:rgba(0, 0, 0, 0.9);
+
 }
 .gallery img{
     width: 360px;
     height: 240px;
     margin:10px;
-    
-   
+}
+ 
+/* services section */
+#services{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.row{
+    display: flex;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border:1px solid black
+    margin: 10px;
+    align-items:center;
+    text-align: justify;
 }
